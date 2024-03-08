@@ -1,0 +1,47 @@
+body {
+  width: 300px; /* Adjust the minimum width of the popup */
+  height: 300px; /* Adjust the minimum height of the popup */
+  border-radius: 5px; /* Apply rounded corners to the popup */
+  background-color: #ffffff; /* Set background color */
+  padding: 20px;
+  border-radius: 5px;
+}
+.note-input {
+  width: 92%;
+  height: 20%;
+  max-width: 92%;
+  min-width: 92%;
+  max-height: 30%;
+  min-height: 20%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.note-input:focus {
+  border-color: #007bff;
+}
+
+/* Button styles (optional) */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+#submit-button-container {
+  display: flex;
+  justify-content: center;
+}
